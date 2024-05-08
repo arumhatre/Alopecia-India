@@ -850,6 +850,13 @@ hr.bannerhr {
   margin-right: 10px !important;
 }
 
+.popup-vimeo {
+    display: ruby;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
 .popup-vimeo:hover {
   text-decoration: none;
 }
@@ -919,6 +926,7 @@ hr.bannerhr {
 }
 
 .types_heding_main{
+  margin-bottom: 0;
   font-size: 21px;
   color: #212121;
   font-weight: 500;
@@ -1006,7 +1014,7 @@ hr.bannerhr {
 /*==========================================*/
 
 .homeopathy-bg-img{
-    background: url(../ images/key-bg-sec.webp) left bottom no-repeat;
+    background: url(../images/key-bg-sec.webp) left bottom no-repeat;
     background-size: cover;
 }
 

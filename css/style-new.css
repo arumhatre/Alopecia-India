@@ -76,7 +76,7 @@ header {
     font-size: 32px;
     font-weight: 500;
     color: #212121;
-    line-height: 28px;
+    line-height: 36px;
 }
 
 .main-all-heading span{
@@ -168,11 +168,8 @@ hr.bannerhr {
 @media (max-width: 1700px){
 
 .banner-content-cls{
-  height: 530px;
-  max-height: 530px;
+ 
 }
-
-
 }
 
 
@@ -203,8 +200,7 @@ hr.bannerhr {
 }
 
 .banner-content-cls{
-  height: 450px;
-  max-height: 450px;
+
 }
 
 .blue-strip-offer-section {
@@ -220,8 +216,7 @@ hr.bannerhr {
 
 @media (max-width: 1500px){
   .banner-content-cls{
-  height: 450px;
-  max-height: 450px;
+  
 }
 
 .blue-strip-offer-section {
@@ -237,8 +232,7 @@ hr.bannerhr {
 
 @media (max-width: 1450px){
   .banner-content-cls{
-  height: 450px;
-  max-height: 450px;
+  
 }
 }
 
@@ -253,8 +247,7 @@ hr.bannerhr {
 
 
 .banner-content-cls{
-  height: 440px;
-  max-height: 440px;
+  
 }
 
 .blue-strip-offer-section {
@@ -268,8 +261,7 @@ hr.bannerhr {
 
 @media (max-width: 1300px){
   .banner-content-cls{
-  height: 465px;
-  max-height: 465px;
+  
 }
 }
 
@@ -314,8 +306,7 @@ hr.bannerhr {
 }
 
 .banner-content-cls{
-  height: 390px;
-  max-height: 400px;
+  
 }
 
 .blue-strip-offer-section {
@@ -330,8 +321,7 @@ hr.bannerhr {
 @media (max-width: 1100px){
 
 .banner-content-cls{
-  height: 435px;
-  max-height: 435px;
+ 
 }
 }
 
@@ -351,8 +341,7 @@ hr.bannerhr {
 }
 
 .banner-content-cls{
-  height: 380px;
-  max-height: 450px;
+  
 }
 
 .blue-strip-offer-section{
@@ -368,8 +357,7 @@ hr.bannerhr {
 @media (max-width: 992px){
  
 .banner-content-cls{
-  height: 430px;
-  max-height: 450px;
+ 
 }
 
 .blue-strip-offer-section {
@@ -407,8 +395,7 @@ hr.bannerhr {
 }
 
 .banner-content-cls{
-  height: 390px;
-  max-height: 400px;
+  
 }
 
 hr.bannerhr {
@@ -421,8 +408,7 @@ hr.bannerhr {
 @media (max-width: 768px){
 
 .banner-content-cls{
-  height: 380px;
-  max-height: 400px;
+ 
 }
 }
 
@@ -470,8 +456,8 @@ hr.bannerhr {
 }
 
 .banner-content-cls{
-  height: 420px;
-  max-height: 420px;
+
+
 }
 
 .mob-cls-ban-icon{
@@ -492,8 +478,7 @@ hr.bannerhr {
 @media (max-width: 430px){
 
 .banner-content-cls{
-  height: 395px;
-  max-height: 400px;
+
 }
 
 .main-banner-heading-n{
@@ -510,16 +495,15 @@ hr.bannerhr {
 @media (max-width: 420px){
 
 .banner-content-cls{
-  height: 400px;
-  max-height: 400px;
+
+
 }
 }
 
 @media (max-width: 390px){
 
 .banner-content-cls{
-  height: 385px;
-  max-height: 400px;
+ 
 }
 
 .main-banner-heading-n{
@@ -543,8 +527,8 @@ hr.bannerhr {
 @media (max-width: 360px){
 
 .banner-content-cls{
-  height: 400px;
-  max-height: 400px;
+
+
 }
 
 .main-banner-heading-n{
@@ -574,8 +558,8 @@ hr.bannerhr {
 }
 
 .banner-content-cls {
-    height: 320px;
-    max-height: 400px;
+   
+
 }
 
 .banner-up-para {
@@ -952,9 +936,35 @@ hr.bannerhr {
 /*==========================================*/
 
 
+.our_process_box{
+  height: 360px;
+  padding: 25px 20px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid #bdbdbd;
+}
 
+.main_our_process_heading{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 21px;
+  color: #212121;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+
+#process_slider{
+  display: none;
+}
+
+#process_slider .owl-item img{
+  display: inline !important;
+}
 
 @media (max-width: 1024px) {
+
+
 
   .owl-item .item {
     transform: translate3d(0, 0, 0);
@@ -975,6 +985,68 @@ hr.bannerhr {
     margin: 0 10px;
     color: #000000 !important;
   }
+}
+
+@media (max-width: 992px) {
+  
+
+#process_slider{
+  display: block;
+}
+
+.Process_container_dekstop{
+  display: none;
+}
+
+}
+
+
+/*==========================================*/
+/* key benefits css*/
+/*==========================================*/
+
+.homeopathy-bg-img{
+    background: url(../ images/key-bg-sec.webp) left bottom no-repeat;
+    background-size: cover;
+}
+
+.Key_benifits_sec{
+  
+}
+
+.key-benifit-content-box{ 
+  z-index: 1;
+  padding: 50px;
+  background-color: #f4fbff;
+}
+
+.key-para {
+    margin-bottom: 0;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.key-icon-border {
+  padding: 10px;
+    background-color: #f4fbff;
+    background-clip: padding-box;
+    border: solid 3px transparent;
+    border-radius: 5em;
+    display: flex;
+}
+
+.key-icon-border:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -2px;
+  border-radius: inherit;
+  background:linear-gradient(90deg, #3296d2 0%, #3296d2 25%, #a6dcfd 50%, rgb(244 251 255) 75%, rgb(244 251 255) 100%);
 }
 
 

@@ -1057,6 +1057,14 @@ hr.bannerhr {
   background:linear-gradient(90deg, #3296d2 0%, #3296d2 25%, #a6dcfd 50%, rgb(244 251 255) 75%, rgb(244 251 255) 100%);
 }
 
+@media screen and (max-width: 600px) {
+
+  .key-benifit-content-box{ 
+  z-index: 1;
+  padding: 60px 30px;
+  background-color: #f4fbff;
+}
+}
 
 /*==========================================*/
 /* FAQ css*/

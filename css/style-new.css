@@ -21,7 +21,7 @@ header{background:#f2faff}
 .main-all-heading{text-align:center}
 }
 .owl-carousel .owl-item img{width:auto}
-
+.owl-carousel .owl-dots{display: none;}
 
 /*==========================================*/
 /* banner section css*/
@@ -148,7 +148,6 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .screenshot_slider .owl-nav{text-align:center!important;margin-top:15px;top:0;right:0;position:relative}
 .screenshot_slider .owl-nav button{font-size:30px!important;margin:0 10px;color:#000!important}
 }
-
 
 /*==========================================*/
 /* Testimonials css*/

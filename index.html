@@ -467,7 +467,7 @@
     autoplayTimeout: 4e3,
     smartSpeed: 400,
     center: !0,
-    navText: ["<img src='images/previmage.webp' alt='01 prev' width='40' height='40' role='button'>", "<img src='images/nextimage.webp' alt='01 next' width='40' height='40' role='button'>"],
+    navText: ["<img src='images/previmage.webp' alt='01 prev' width='40' height='40'>", "<img src='images/nextimage.webp' alt='01 next' width='40' height='40'>"],
     responsive: {
       0: {
         items: 1
@@ -485,6 +485,8 @@
   });
   </script>
   <script>
+
+  $(document).ready(function(){  
   var owl = $("#testimonilas_slider").owlCarousel({
     loop: !0,
     responsiveClass: !0,
@@ -493,7 +495,7 @@
     autoplay: !1,
     autoplayTimeout: 4e3,
     smartSpeed: 400,
-    navText: ["<img src='images/previmage.webp' alt='02 prev' width='40' height='40' role='button'>", "<img src='images/nextimage.webp' alt='02 next' width='40' height='40' role='button'>"],
+    navText: ["<img src='images/previmage.webp' alt='02 prev' width='40' height='40'>", "<img src='images/nextimage.webp' alt='02 next' width='40' height='40'>"],
     responsive: {
       0: {
         items: 1
@@ -512,8 +514,17 @@
       }
     }
   });
+      // Add role="button" to navigation elements
+    $(".owl-nav .owl-prev").attr("role", "button");
+    $(".owl-nav .owl-next").attr("role", "button");
+});
+
   </script>
+
+
+
   <script>
+    $(document).ready(function(){  
   var owl = $("#testimonilas_slider").owlCarousel({
     loop: !0,
     responsiveClass: !0,
@@ -522,7 +533,7 @@
     autoplay: !1,
     autoplayTimeout: 4e3,
     smartSpeed: 400,
-    navText: ["<img src='images/previmage.webp' alt='03 prev' width='40' height='40' role='03 prev'>", "<img src='images/nextimage.webp' alt='03 next' width='40' height='40' role='03 next'>"],
+    navText: ["<img src='images/previmage.webp' alt='03 prev' width='40' height='40'>", "<img src='images/nextimage.webp' alt='03 next' width='40' height='40'>"],
     responsive: {
       0: {
         items: 1
@@ -541,6 +552,11 @@
       }
     }
   });
+      // Add role="button" to navigation elements
+    $(".owl-nav .owl-prev").attr("role", "button");
+    $(".owl-nav .owl-next").attr("role", "button");
+});
+
   </script>
   <script>
   var $homeSlider = $("#process_slider");
@@ -566,7 +582,7 @@
       // autoplay: true,
       autoplay: !1,
       autoplayTimeout: 2000,
-      navText: ["<img src='images/previmage.webp' alt='04 prev' width='40' height='40' role='04 prev'>", "<img src='images/nextimage.webp' alt='04 next' width='40' height='40' role='04 next'>"],
+      navText: ["<img src='images/previmage.webp' alt='04 prev' width='40' height='40'>", "<img src='images/nextimage.webp' alt='04 next' width='40' height='40'>"],
       smartSpeed: 400,
       responsive: {
         0: {

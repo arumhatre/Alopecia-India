@@ -159,9 +159,9 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .test-v-para{font-size:16px;color:#fff;font-weight:400;margin-bottom:0}
 .test-v-subheading{color:#b99863;font-size:18px;font-weight:600;margin-bottom:0}
 .img-test-before-after-v{position:absolute;top:10px;right:10px}
-.test-v-img-cls::before{background:linear-gradient(to bottom,#333232,#000);bottom:0;content:"";left:0;position:absolute;right:15px;top:0;opacity:.5}
+/*.test-v-img-cls::before{background:linear-gradient(to bottom,#333232,#000);bottom:0;content:"";left:0;position:absolute;right:15px;top:0;opacity:.5}*/
 @media screen and (max-width:600px){
-.test-v-img-cls::before{background:linear-gradient(to bottom,#333232,#000);bottom:0;content:"";left:0;position:absolute;right:0;top:0;opacity:.5}
+/*.test-v-img-cls::before{background:linear-gradient(to bottom,#333232,#000);bottom:0;content:"";left:0;position:absolute;right:0;top:0;opacity:.5}*/
 .resultsImg{position:absolute;bottom:360px;right:20px}
 .resultsImg img{width:100px}
 .mfp-iframe-holder .mfp-content{line-height:0;width:100%;max-width:900px;height:90%}
@@ -219,28 +219,37 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .key-icon-border{padding:10px;background-color:#f4fbff;background-clip:padding-box;border:solid 3px transparent;border-radius:5em;display:flex}
 .key-icon-border:before{content:"";position:absolute;top:0;right:0;bottom:0;left:0;z-index:-1;margin:-2px;border-radius:inherit;background:linear-gradient(90deg,#3296d2 0,#3296d2 25%,#a6dcfd 50%,rgb(244 251 255) 75%,rgb(244 251 255) 100%)}
 @media screen and (max-width:600px){
+ .key-icon-border{padding: 5px}
 .key-benifit-content-box{z-index:1;padding:60px 30px;background-color:#f4fbff}
+.key-para {font-size: 18px}
+.key-icon-border img{
+  width: 15%;
+}
 }
 
 
 /*==========================================*/
 /* FAQ css*/
 /*==========================================*/
+.faq_sec_pad{padding-top:50px;padding-bottom:50px}
 .faq-box-cls{padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #b1b1b1}
 .panel-title{margin-bottom:0;text-decoration:none!important}
-.panel-title a,.panel-title a:hover{text-decoration:none!important;color:#30292b;font-size:21px;font-weight:500}
+.panel-title a{text-decoration:none!important;color:#2876a9;font-size:21px;font-weight:500;line-height:24px;padding:0}
+.panel-title a.collapsed{text-decoration:none!important;color:#212121;font-size:21px;font-weight:400;line-height:24px;padding:0}
 .panel-title a span{padding:10px;margin-right:10px;background:linear-gradient(359deg,#03619a 0,#047dc7 100%);color:#fff;border-radius:50%;font-size:18px;font-weight:600}
 .panel-title a.collapsed span{color:#fff;background:#000;font-weight:500}
-.panel-title a:after{content:'-';float:right;font-size:30px;font-weight:400;position:absolute;right:25px;margin:-15px}
-.panel-title a.collapsed:after{content:'+'}
-.para-faq{padding:20px 40px 0 60px;font-size:16px;color:#636363}
+.panel-title a:after{content:"-";float:right;font-size:30px;font-weight:300;position:absolute;right:25px;margin:0}
+.panel-title a.collapsed:after{content:"+"}
+.para-faq{padding:15px 0 0 0;font-size:16px;color:#212121}
+.panel-title .btn-link:focus{box-shadow:none}
 @media screen and (max-width:600px){
-.panel-title a{text-decoration:none;color:#30292b;font-size:18px;line-height:24px;font-weight:500;display:flex}
-.panel-title a span{padding:8px;font-size:16px;line-height:26px;width:40px;height:40px}
-.para-faq{padding:10px 0 0 10px;font-size:16px;color:#636363}
+.panel-title a{width:300px;text-decoration:none!important;color:#2876a9;font-size:16px;font-weight:500;line-height:21px;padding:0}
+.panel-title a.collapsed{text-decoration:none!important;color:#212121;font-size:16px;font-weight:500;line-height:21px;padding:0}
+.para-faq{padding:10px 0 0 0;font-size:16px;color:#636363}
 .faq-box-cls{padding-bottom:15px;margin-bottom:15px;border-bottom:1px solid #b1b1b1}
+.panel-title a:after{content:"-";float:right;font-size:25px;font-weight:300;position:absolute;right:25px;margin:0}
+.faq_sec_pad{padding-top:30px;padding-bottom:30px}
 }
-
 
 /*==========================================*/
 /* Contact form css*/

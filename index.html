@@ -13,8 +13,8 @@
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/style-new.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
-  <link rel="preload" as="image" href="images/banner-model.webp">
-</head>
+  <link rel="preload" as="image" href="images/banner-model.webp"> </head>
+
 <body>
   <header class="container-fluid position_sticky">
     <div class="container">
@@ -27,9 +27,7 @@
     <div class="container-fluid">
       <div class="row align-items-end">
         <div class="col-xl-5 col-lg-5 col-md-6 pl-0 text-center align-self-end order-md-first order-last">
-          <picture>
-            <img src="images/banner-model.webp" alt="banner-model" class="img-fluid banner-img-cls pt-xl-5 pt-0 mt-0  px-0 " width="736" height="597">
-          </picture>
+          <picture> <img src="images/banner-model.webp" alt="banner-model" class="img-fluid banner-img-cls pt-xl-5 pt-0 mt-0  px-0 " width="736" height="597"> </picture>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-6 col-12 d-block justify-content-lg-start text-md-left align-self-end mb-xl-5 mb-lg-4 mb-md-4 mb-0 pl-md-0 pr-md-3">
           <div class="banner-content-cls mt-xl-3 pt-xl-5 mt-md-4 mt-3 pt-md-4 mb-xl-2 pt-lg-0 pl-md-0 pl-3 pr-3">
@@ -458,132 +456,17 @@
   })
   </script>
   <script>
-  var owl = $(".screenshot_slider").owlCarousel({
-    loop: !0,
-    responsiveClass: !0,
-    nav: !0,
-    margin: 0,
-    autoplay: !0,
-    autoplayTimeout: 4e3,
-    smartSpeed: 400,
-    center: !0,
-    navText: ["<img src='images/previmage.webp' alt='01 prev' width='40' height='40'>", "<img src='images/nextimage.webp' alt='01 next' width='40' height='40'>"],
-    responsive: {
-      0: {
-        items: 1
-      },
-      600: {
-        items: 1
-      },
-      768: {
-        items: 2
-      },
-      1200: {
-        items: 3
-      }
-    }
-  });
-  </script>
-  <script>
-
-  $(document).ready(function(){  
-  var owl = $("#testimonilas_slider").owlCarousel({
-    loop: !0,
-    responsiveClass: !0,
-    nav: !0,
-    margin: 0,
-    autoplay: !1,
-    autoplayTimeout: 4e3,
-    smartSpeed: 400,
-    navText: ["<img src='images/previmage.webp' alt='02 prev' width='40' height='40'>", "<img src='images/nextimage.webp' alt='02 next' width='40' height='40'>"],
-    responsive: {
-      0: {
-        items: 1
-      },
-      600: {
-        items: 1
-      },
-      768: {
-        items: 2
-      },
-      1024: {
-        items: 3
-      },
-      1200: {
-        items: 4
-      }
-    }
-  });
-      // Add role="button" to navigation elements
-    $(".owl-nav .owl-prev").attr("role", "button");
-    $(".owl-nav .owl-next").attr("role", "button");
-});
-
-  </script>
-
-
-
-  <script>
-    $(document).ready(function(){  
-  var owl = $("#testimonilas_slider").owlCarousel({
-    loop: !0,
-    responsiveClass: !0,
-    nav: !0,
-    margin: 0,
-    autoplay: !1,
-    autoplayTimeout: 4e3,
-    smartSpeed: 400,
-    navText: ["<img src='images/previmage.webp' alt='03 prev' width='40' height='40'>", "<img src='images/nextimage.webp' alt='03 next' width='40' height='40'>"],
-    responsive: {
-      0: {
-        items: 1
-      },
-      600: {
-        items: 1
-      },
-      768: {
-        items: 2
-      },
-      1024: {
-        items: 3
-      },
-      1200: {
-        items: 4
-      }
-    }
-  });
-      // Add role="button" to navigation elements
-    $(".owl-nav .owl-prev").attr("role", "button");
-    $(".owl-nav .owl-next").attr("role", "button");
-});
-
-  </script>
-  <script>
-  var $homeSlider = $("#process_slider");
-  $(window).resize(function() {
-    showHomeSlider();
-  });
-
-  function showHomeSlider() {
-    if($homeSlider.data("owlCarousel") !== "undefined") {
-      if(window.matchMedia('(max-width: 992px)').matches) {
-        initialHomeSlider();
-      } else {
-        destroyHomeSlider();
-      }
-    }
-  }
-  showHomeSlider();
-
-  function initialHomeSlider() {
-    $homeSlider.addClass("owl-carousel").owlCarousel({
-      items: 1,
-      loop: true,
-      // autoplay: true,
-      autoplay: !1,
-      autoplayTimeout: 2000,
-      navText: ["<img src='images/previmage.webp' alt='04 prev' width='40' height='40'>", "<img src='images/nextimage.webp' alt='04 next' width='40' height='40'>"],
+  $(document).ready(function() {
+    var owl = $(".screenshot_slider").owlCarousel({
+      loop: !0,
+      responsiveClass: !0,
+      nav: !0,
+      margin: 0,
+      autoplay: !0,
+      autoplayTimeout: 4e3,
       smartSpeed: 400,
+      center: !0,
+      navText: ["<img src='images/previmage.webp' alt='01 prev' width='40' height='40'>", "<img src='images/nextimage.webp' alt='01 next' width='40' height='40'>"],
       responsive: {
         0: {
           items: 1
@@ -595,15 +478,134 @@
           items: 2
         },
         1200: {
-          items: 2
+          items: 3
         }
       }
     });
-  }
+    // Add role="button" to navigation elements
+    $(".owl-nav .owl-prev").attr("role", "button");
+    $(".owl-nav .owl-next").attr("role", "button");
+  });
+  </script>
+  <script>
+  $(document).ready(function() {
+    var owl = $("#testimonilas_slider").owlCarousel({
+      loop: !0,
+      responsiveClass: !0,
+      nav: !0,
+      margin: 0,
+      autoplay: !1,
+      autoplayTimeout: 4e3,
+      smartSpeed: 400,
+      navText: ["<img src='images/previmage.webp' alt='02 prev' width='40' height='40'>", "<img src='images/nextimage.webp' alt='02 next' width='40' height='40'>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 1
+        },
+        768: {
+          items: 2
+        },
+        1024: {
+          items: 3
+        },
+        1200: {
+          items: 4
+        }
+      }
+    });
+    // Add role="button" to navigation elements
+    $(".owl-nav .owl-prev").attr("role", "button");
+    $(".owl-nav .owl-next").attr("role", "button");
+  });
+  </script>
+  <script>
+  $(document).ready(function() {
+    var owl = $("#testimonilas_slider").owlCarousel({
+      loop: !0,
+      responsiveClass: !0,
+      nav: !0,
+      margin: 0,
+      autoplay: !1,
+      autoplayTimeout: 4e3,
+      smartSpeed: 400,
+      navText: ["<img src='images/previmage.webp' alt='03 prev' width='40' height='40'>", "<img src='images/nextimage.webp' alt='03 next' width='40' height='40'>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 1
+        },
+        768: {
+          items: 2
+        },
+        1024: {
+          items: 3
+        },
+        1200: {
+          items: 4
+        }
+      }
+    });
+    // Add role="button" to navigation elements
+    $(".owl-nav .owl-prev").attr("role", "button");
+    $(".owl-nav .owl-next").attr("role", "button");
+  });
+  </script>
+  <script>
+  $(document).ready(function() {
+    var $homeSlider = $("#process_slider");
+    $(window).resize(function() {
+      showHomeSlider();
+    });
 
-  function destroyHomeSlider() {
-    $homeSlider.trigger("destroy.owl.carousel").removeClass("owl-carousel");
-  }
+    function showHomeSlider() {
+      if($homeSlider.data("owlCarousel") !== "undefined") {
+        if(window.matchMedia('(max-width: 992px)').matches) {
+          initialHomeSlider();
+        } else {
+          destroyHomeSlider();
+        }
+      }
+    }
+    showHomeSlider();
+
+    function initialHomeSlider() {
+      $homeSlider.addClass("owl-carousel").owlCarousel({
+        items: 1,
+        loop: true,
+        // autoplay: true,
+        autoplay: !1,
+        autoplayTimeout: 2000,
+        navText: ["<img src='images/previmage.webp' alt='04 prev' width='40' height='40'>", "<img src='images/nextimage.webp' alt='04 next' width='40' height='40'>"],
+        smartSpeed: 400,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          768: {
+            items: 2
+          },
+          1200: {
+            items: 2
+          }
+        }
+      });
+    }
+
+    function destroyHomeSlider() {
+      $homeSlider.trigger("destroy.owl.carousel").removeClass("owl-carousel");
+    }
+    // Add role="button" to navigation elements
+    $(".owl-nav .owl-prev").attr("role", "button");
+    $(".owl-nav .owl-next").attr("role", "button");
+  });
   </script>
   <script>
   function openForm() {

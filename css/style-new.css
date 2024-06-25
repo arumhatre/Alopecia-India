@@ -110,7 +110,8 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 /*==========================================*/
 /* offer-blue section css*/
 /*==========================================*/
-.offer-background-sec{background:#3096d3}
+/*.offer-background-sec{background:#3096d3}*/
+.offer-background-sec{background:#1a75ac}
 .blue_patch_iconcls{box-shadow:0 2px 2px rgb(53 153 215);border-radius:50%;margin-top:10px;margin-bottom:10px}
 .offer-head-main{padding-top:15px;padding-left:10px;color:#fff;font-size:18px;line-height:24px}
 @media (max-width:1600px){

@@ -21,16 +21,18 @@ header{background:#f2faff}
 .main-all-heading{text-align:center}
 }
 .owl-carousel .owl-item img{width:auto}
-.owl-carousel .owl-dots{display: none;}
+.owl-carousel .owl-dots{display:none}
+
 
 /*==========================================*/
 /* banner section css*/
 /*==========================================*/
+
 .banner-section-cls{background-color:#f1faff}
 .banner-up-para{font-size:40px;margin-bottom:0;font-weight:500}
-.main-banner-heading-n{font-size:45px;text-transform:uppercase;font-weight:500;color:#0074ad}
+.main-banner-heading-n{font-size:40px;font-weight:500;color:#0074ad}
 .main-banner-heading-n span{font-weight:700;color:#0074ad}
-.banner-sub-heding-n{font-size:40px;font-weight:400}
+.banner-sub-heding-n{font-size:28px;font-weight:400;margin-bottom:0}
 .banner-list{padding-right:0;font-size:21px;color:#30292b;padding-inline-start:25px}
 hr.bannerhr{width:100px;border:3px solid #0074ad}
 .banner-main-icon-heading{padding-top:10px;padding-left:15px;font-size:24px;line-height:30px;color:#212121;font-weight:500}
@@ -39,21 +41,22 @@ hr.bannerhr{width:100px;border:3px solid #0074ad}
 #carouselExampleIndicators .carousel-indicators{z-index:5}
 @media (max-width:1600px){
 .banner-up-para{font-size:30px;margin-bottom:0;font-weight:500}
-.main-banner-heading-n{font-size:42px;text-transform:uppercase;font-weight:500;color:#0074ad}
-.banner-sub-heding-n{font-size:30px;font-weight:400}
+.main-banner-heading-n{font-size:38px;font-weight:500;color:#0074ad}
+.banner-sub-heding-n{font-size:26px;font-weight:400}
 .banner-list{padding-right:0;font-size:18px;color:#30292b;padding-inline-start:25px}
 .blue-strip-offer-section{text-align:right;color:#fff;margin-top:-25px;font-size:16px}
 }
 @media (max-width:1500px){
+.main-banner-heading-n{font-size:35px;font-weight:500;color:#0074ad}
 .blue-strip-offer-section{text-align:right;color:#fff;margin-top:-25px;font-size:15px}
 }
 @media (max-width:1400px){
-.main-banner-heading-n{font-size:35px;text-transform:uppercase;font-weight:500;color:#0074ad}
+.main-banner-heading-n{font-size:35px;font-weight:500;color:#0074ad}
 .blue-strip-offer-section{text-align:right;color:#fff;margin-top:-25px;font-size:14px}
 }
 @media (max-width:1200px){
 .banner-up-para{font-size:24px;margin-bottom:0;font-weight:500}
-.main-banner-heading-n{font-size:30px;text-transform:uppercase;font-weight:500;color:#0074ad}
+.main-banner-heading-n{font-size:30px;font-weight:500;color:#0074ad}
 .banner-sub-heding-n{font-size:24px;font-weight:400}
 .banner-list{padding-right:0;font-size:16px;color:#30292b;padding-inline-start:25px}
 .mob-cls-ban-icon{width:55px;height:55px}
@@ -61,7 +64,7 @@ hr.bannerhr{width:100px;border:3px solid #0074ad}
 .blue-strip-offer-section{text-align:right;color:#fff;margin-top:-25px;font-size:12px}
 }
 @media (max-width:1024px){
-.main-banner-heading-n{font-size:24px;text-transform:uppercase;font-weight:500;color:#0074ad}
+.main-banner-heading-n{font-size:24px;font-weight:500;color:#0074ad}
 .banner-sub-heding-n{font-size:20px;font-weight:400}
 .blue-strip-offer-section{text-align:right;color:#fff;margin-top:-20px}
 }
@@ -70,14 +73,14 @@ hr.bannerhr{width:100px;border:3px solid #0074ad}
 }
 @media (max-width:820px){
 .banner-up-para{font-size:20px;margin-bottom:0;font-weight:500}
-.main-banner-heading-n{font-size:26px;text-transform:uppercase;font-weight:500;color:#0074ad}
+.main-banner-heading-n{font-size:26px;font-weight:500;color:#0074ad}
 .banner-sub-heding-n{font-size:20px;font-weight:400}
 .banner-list{padding-right:0;font-size:14px;color:#30292b;padding-inline-start:25px}
 hr.bannerhr{width:80px;border:2px solid #0074ad}
 }
 @media (max-width:600px){
 .banner-up-para{font-size:25px;margin-bottom:0;font-weight:500}
-.main-banner-heading-n{font-size:32px;line-height:40px;text-transform:uppercase;font-weight:500;color:#0074ad}
+.main-banner-heading-n{font-size:32px;line-height:40px;font-weight:500;color:#0074ad}
 .main-banner-heading-n span{font-weight:700;color:#0074ad}
 .banner-sub-heding-n{font-size:24px;font-weight:400}
 .banner-main-icon-heading{padding-top:10px;padding-left:15px;font-size:18px;line-height:25px;color:#212121;font-weight:500}
@@ -86,31 +89,40 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .blue-strip-offer-section{text-align:right;color:#fff;margin-top:-12px;font-size:14px}
 }
 @media (max-width:430px){
-.main-banner-heading-n{font-size:32px;line-height:40px;text-transform:uppercase;font-weight:500;color:#0074ad}
+.main-banner-heading-n{font-size:32px;line-height:40px;font-weight:500;color:#0074ad}
 }
 @media (max-width:390px){
-.main-banner-heading-n{font-size:30px;line-height:38px;text-transform:uppercase;font-weight:500;color:#0074ad}
+.main-banner-heading-n{font-size:30px;line-height:38px;font-weight:500;color:#0074ad}
 .banner-sub-heding-n{font-size:22px;font-weight:400}
 }
 @media (max-width:360px){
-.main-banner-heading-n{font-size:28px;line-height:35px;text-transform:uppercase;font-weight:500;color:#0074ad}
+.main-banner-heading-n{font-size:28px;line-height:35px;font-weight:500;color:#0074ad}
 }
 @media (max-width:300px){
 .banner-main-icon-heading{padding-top:10px;padding-left:15px;font-size:14px;line-height:22px;color:#212121;font-weight:500}
 .mob-cls-ban-icon{width:50px;height:50px}
 .banner-up-para{font-size:18px;margin-bottom:0;font-weight:500}
-.main-banner-heading-n{font-size:28px;text-transform:uppercase;font-weight:400;color:#0074ad}
+.main-banner-heading-n{font-size:28px;font-weight:400;color:#0074ad}
 .banner-sub-heding-n{font-size:18px;font-weight:400}
 .banner-list{padding-right:0;font-size:14px;color:#30292b;padding-inline-start:25px}
 }
-
-
-
+@media screen and (max-width:1920px) and (min-width:1024px){
+#my_banner_Video{width:470px}
+}
+@media screen and (max-width:1024px) and (min-width:820px){
+#my_banner_Video{width:430px}
+}
+@media screen and (max-width:768px){
+#my_banner_Video{width:400px}
+}
+@media screen and (max-width:600px){
+#my_banner_Video{width:100%}
+}
 
 /*==========================================*/
 /* offer-blue section css*/
 /*==========================================*/
-/*.offer-background-sec{background:#3096d3}*/
+
 .offer-background-sec{background:#1a75ac}
 .blue_patch_iconcls{box-shadow:0 2px 2px rgb(53 153 215);border-radius:50%;margin-top:10px;margin-bottom:10px}
 .offer-head-main{padding-top:15px;padding-left:10px;color:#fff;font-size:18px;line-height:24px}
@@ -128,12 +140,21 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .offer-background-sec{padding-top:10px;padding-bottom:10px}
 }
 
+/*==========================================*/
+/* Did you know css*/
+/*==========================================*/
+
+.did_you_know_para{display:none}
+@media (max-width:577px){
+.did_you_know_para{display:block;margin-top:15px;margin-bottom:0;font-size:21px;color:#212121;line-height:normal}
+}
 
 /*==========================================*/
 /* Testimonials Before-after css*/
 /*==========================================*/
+
 .owl-carousel{z-index:0}
-.owl-item .item{transform:translate3d(0,0,0);padding-bottom:20px;padding-top:20px}
+.screenshot_slider .owl-item .item{transform:translate3d(0,0,0);padding-bottom:20px;padding-top:20px}
 .screenshot_slider .owl-item .item img{-webkit-transition:.3s;-o-transition:.3s;transition:.3s;-webkit-transform:scale(.6);-ms-transform:scale(.6);transform:scale(.6);opacity:.4}
 .screenshot_slider .owl-item.center .item img{-webkit-transform:scale(1.15);-ms-transform:scale(1.15);transform:scale(1.15);opacity:1}
 @media (max-width:1024px){
@@ -145,7 +166,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .screenshot_slider .owl-nav{text-align:right;top:-70px;position:absolute;right:30px}
 .screenshot_slider .owl-nav button{font-size:30px!important;margin:0 7px;color:#000!important}
 @media (max-width:1024px){
-.owl-item .item{transform:translate3d(0,0,0);padding:30px 30px 20px}
+.screenshot_slider .owl-item .item{transform:translate3d(0,0,0);padding:30px 30px 20px}
 .screenshot_slider .owl-nav{text-align:center!important;margin-top:15px;top:0;right:0;position:relative}
 .screenshot_slider .owl-nav button{font-size:30px!important;margin:0 10px;color:#000!important}
 }
@@ -153,15 +174,14 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 /*==========================================*/
 /* Testimonials css*/
 /*==========================================*/
+
 .test-v-cls{bottom:10px;position:absolute;padding:5px 5px}
 .resultsImg{position:absolute;bottom:210px;right:10px}
 .resultsImg img{width:70px!important}
 .test-v-para{font-size:16px;color:#fff;font-weight:400;margin-bottom:0}
 .test-v-subheading{color:#b99863;font-size:18px;font-weight:600;margin-bottom:0}
 .img-test-before-after-v{position:absolute;top:10px;right:10px}
-/*.test-v-img-cls::before{background:linear-gradient(to bottom,#333232,#000);bottom:0;content:"";left:0;position:absolute;right:15px;top:0;opacity:.5}*/
 @media screen and (max-width:600px){
-/*.test-v-img-cls::before{background:linear-gradient(to bottom,#333232,#000);bottom:0;content:"";left:0;position:absolute;right:0;top:0;opacity:.5}*/
 .resultsImg{position:absolute;bottom:360px;right:20px}
 .resultsImg img{width:100px}
 .mfp-iframe-holder .mfp-content{line-height:0;width:100%;max-width:900px;height:90%}
@@ -178,55 +198,119 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 #testimonilas_slider .owl-nav{text-align:right;top:-70px;position:absolute;right:30px}
 #testimonilas_slider .owl-nav button{font-size:30px!important;margin:0 7px;color:#000!important}
 @media (max-width:1024px){
-.owl-item .item{transform:translate3d(0,0,0);padding:30px 30px 20px}
+#testimonilas_slider .owl-item .item{transform:translate3d(0,0,0);padding:30px 30px 20px}
 #testimonilas_slider .owl-nav{text-align:center!important;margin-top:15px;top:0;right:0;position:relative}
 #testimonilas_slider .owl-nav button{font-size:30px!important;margin:0 10px;color:#000!important}
 }
 
-
 /*==========================================*/
 /* types of alopecia section css*/
 /*==========================================*/
+
 .types_alopecia_sec{background-color:#f4fbff}
 .types_heding_main{margin-bottom:0;font-size:21px;color:#212121;font-weight:500}
 .types_para_sce{font-size:16px;font-weight:400;color:#212121}
 
-
 /*==========================================*/
 /* Our Process css*/
 /*==========================================*/
-.our_process_box{height:360px;padding:25px 20px;text-align:center;border-radius:20px;border:1px solid #bdbdbd}
+
+.our_process_box{height:410px;padding:25px 20px;text-align:center;border-radius:20px;border:1px solid #bdbdbd}
 .main_our_process_heading{margin-top:20px;margin-bottom:5px;font-size:21px;color:#212121;font-weight:500;line-height:24px}
-#process_slider{display:none}
+#process_slider .item{margin-right:10px;margin-left:10px;width:31%;display:inline-flex}
 #process_slider .owl-item img{display:inline!important}
 @media (max-width:1024px){
-.owl-item .item{transform:translate3d(0,0,0);padding:30px 30px 20px}
-#process_slider .owl-nav{text-align:center!important;margin-top:15px;top:0;right:0;position:relative;display:block}
+#process_slider .owl-item .item{transform:translate3d(0,0,0);padding:0 20px 20px;width:99%}
+#process_slider .owl-nav{text-align:center!important;margin-top:0;top:0;right:0;position:relative;display:block}
 #process_slider .owl-nav button{font-size:30px!important;margin:0 10px;color:#000!important}
+#process_slider .item{margin-right:10px;margin-left:10px;width:30%;display:inline-flex}
+.our_process_box{height:475px}
 }
 @media (max-width:992px){
 #process_slider{display:block}
 .Process_container_dekstop{display:none}
 }
-
+@media (max-width:600px){
+#process_slider .item{width:100%;display:inline-flex;margin-right:0;margin-left:0}
+.our_process_box{height:420px}
+}
 
 /*==========================================*/
 /* key benefits css*/
 /*==========================================*/
+
 .homeopathy-bg-img{background:url(../images/key-bg-sec.webp) left bottom no-repeat;background-size:cover}
 .key-benifit-content-box{z-index:1;padding:50px;background-color:#f4fbff}
 .key-para{margin-bottom:0;padding-left:15px;font-size:20px;font-weight:500}
 .key-icon-border{padding:10px;background-color:#f4fbff;background-clip:padding-box;border:solid 3px transparent;border-radius:5em;display:flex}
 .key-icon-border:before{content:"";position:absolute;top:0;right:0;bottom:0;left:0;z-index:-1;margin:-2px;border-radius:inherit;background:linear-gradient(90deg,#3296d2 0,#3296d2 25%,#a6dcfd 50%,rgb(244 251 255) 75%,rgb(244 251 255) 100%)}
 @media screen and (max-width:600px){
- .key-icon-border{padding: 5px}
+.key-icon-border{padding:5px}
 .key-benifit-content-box{z-index:1;padding:60px 30px;background-color:#f4fbff}
-.key-para {font-size: 18px}
-.key-icon-border img{
-  width: 15%;
-}
+.key-para{font-size:18px}
+.key-icon-border img{width:15%}
 }
 
+/*==========================================*/
+/* Circle css*/
+/*==========================================*/
+
+.content_circle_clider_box{height:100px}
+.circle_slider .owl-item{transform-origin:50% 400%}
+.circle_slider .owl-item:after{content:"";position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;pointer-events:none;background-color:#000;transition:opacity .9s cubic-bezier(.7, 0, .3, 1)}
+.circle_slider_heding{font-size:24px;font-weight:600;color:#0073ae;margin-bottom:10px}
+.circle_slider_para{font-size:16px;line-height:normal;color:#212121}
+.circle_slider .owl-nav{display:block}
+.circle_slider .owl-nav .owl-prev{top:43%;position:absolute;left:-10px;border-radius:50%}
+.circle_slider .owl-nav .owl-next{top:43%;position:absolute;right:-10px;border-radius:50%}
+.circle_slider .owl-item .item{text-align:center}
+.circle_slider .owl-item img{margin:0 auto;width:85%}
+@media screen and (max-width:1024px){
+.circle_slider .owl-item img{margin:0 auto;width:95%}
+}
+@media screen and (max-width:912px){
+.circle_slider .owl-item img{margin:0 auto;width:100%}
+}
+@media screen and (max-width:600px){
+.content_circle_clider_box{height:130px}
+.circle_slider .owl-nav .owl-prev{top:30%;position:absolute;left:-10px;border-radius:50%}
+.circle_slider .owl-nav .owl-next{top:30%;position:absolute;right:-10px;border-radius:50%}
+}
+
+
+/*==========================================*/
+/* Circle Effect css*/
+/*==========================================*/
+
+.fadeUpIn{animation:fadeUp .8s forwards ease-in}
+@keyframes fadeUp{
+from{opacity:0;transform:translateY(0)}
+to{opacity:1;transform:translateY(0)}
+}
+.fxCliffDiving .owl-item{transform-origin:50% 50%}
+.fxCliffDiving .owl-item:after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;pointer-events:none;background-color:#000;transition:opacity .9s cubic-bezier(.7, 0, .3, 1)}
+.fxCliffDiving .owl-item.fxCliffDivingInNext,.fxCliffDiving .owl-item.fxCliffDivingInPrev{opacity:1}
+@keyframes rotateOutCircLeft{
+to{transform:rotate(-30deg) translateX(-100%)}
+}
+@keyframes rotateInCircRight{
+from{transform:rotate(30deg) translateX(100%)}
+to{transform:rotate(0) translateX(0)}
+}
+@keyframes rotateOutCircRight{
+to{transform:rotate(30deg) translateX(100%)}
+}
+@keyframes rotateInCircLeft{
+from{transform:rotate(-30deg) translateX(-100%)}
+to{transform:rotate(0) translateX(0)}
+}
+.fxCliffDivingOutNext{animation:rotateOutCircLeft .9s cubic-bezier(.7,0,.3,1)}
+.fxCliffDivingInNext{animation:rotateInCircRight .9s cubic-bezier(.7,0,.3,1)}
+.fxCliffDivingOutPrev{animation:rotateOutCircRight .9s cubic-bezier(.7,0,.3,1)}
+.fxCliffDivingInPrev{animation:rotateInCircLeft .9s cubic-bezier(.7,0,.3,1)}
+@media screen and (max-width:600px){
+.fxCliffDiving .owl-item{transform-origin:50% 400%}
+}
 
 /*==========================================*/
 /* FAQ css*/
@@ -332,3 +416,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 @media screen and (max-width:600px){
 .footer{background:#262626;color:#fff;font-size:13px;padding:10px 0;font-weight:500!important;margin-bottom:60px}
 }
+
+
+
+

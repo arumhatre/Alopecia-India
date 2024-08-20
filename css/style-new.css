@@ -34,7 +34,7 @@ header{background:#f2faff}
 .main-banner-heading-n span{font-weight:700;color:#0074ad}
 .banner-sub-heding-n{font-size:28px;font-weight:400;margin-bottom:0}
 .banner-list{padding-right:0;font-size:21px;color:#30292b;padding-inline-start:25px}
-hr.bannerhr{width:100px;border:3px solid #0074ad}
+hr.bannerhr{width:100%;border:3px solid #0074ad}
 .banner-main-icon-heading{padding-top:10px;padding-left:15px;font-size:24px;line-height:30px;color:#212121;font-weight:500}
 .blue-strip-offer-section{text-align:right;color:#fff;margin-top:-35px}
 #carouselExampleIndicators .carousel-control-next,.carousel-control-prev{display:none!important}

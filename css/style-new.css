@@ -236,20 +236,28 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 }
 
 /*==========================================*/
-/* key benefits css*/
+/* Google css*/
 /*==========================================*/
 
-.homeopathy-bg-img{background:url(../images/key-bg-sec.webp) left bottom no-repeat;background-size:cover}
-.key-benifit-content-box{z-index:1;padding:50px;background-color:#f4fbff}
-.key-para{margin-bottom:0;padding-left:15px;font-size:20px;font-weight:500}
-.key-icon-border{padding:10px;background-color:#f4fbff;background-clip:padding-box;border:solid 3px transparent;border-radius:5em;display:flex}
-.key-icon-border:before{content:"";position:absolute;top:0;right:0;bottom:0;left:0;z-index:-1;margin:-2px;border-radius:inherit;background:linear-gradient(90deg,#3296d2 0,#3296d2 25%,#a6dcfd 50%,rgb(244 251 255) 75%,rgb(244 251 255) 100%)}
-@media screen and (max-width:600px){
-.key-icon-border{padding:5px}
-.key-benifit-content-box{z-index:1;padding:60px 30px;background-color:#f4fbff}
-.key-para{font-size:18px}
-.key-icon-border img{width:15%}
+
+#googlerating_slider .owl-item .item img{-webkit-transition:.3s;-o-transition:.3s;transition:.3s;-webkit-transform:scale(.8);-ms-transform:scale(.8);transform:scale(.8);opacity:1}
+#googlerating_slider .owl-item.center .item img{-webkit-transform:scale(1.15);-ms-transform:scale(1.15);transform:scale(1.15);opacity:1}
+#googlerating_slider .owl-nav{text-align:right;top:-60px;position:absolute;right:30px}
+#googlerating_slider .owl-nav button{font-size:30px!important;margin:0 7px;color:#000!important}
+@media (max-width:1024px){
+.owl-item .item{transform:translate3d(0,0,0);padding:30px 30px 20px}
+#googlerating_slider .owl-nav{text-align:center!important;margin-top:15px;top:0;right:0;position:relative}
+#googlerating_slider .owl-nav button{font-size:30px!important;margin:0 10px;color:#000!important}
 }
+.google-rating-box{height:260px;margin:15px 0;padding:20px 8px 0;background-color:#fff;box-shadow:0 2px 8px rgb(194 194 194 / 30%)}
+.google-rating-cls-para{padding-top:10px;font-size:16px;color:#636363}
+.google-rating-subheading{font-size:21px;font-weight:600;margin-bottom:0;padding-bottom:0}
+.google-rating-subheading small{font-weight:600;font-size:14px}
+.google-rating-small-title{font-weight:600;font-size:12px;color:#636363}
+@media screen and (max-width:600px){
+.google-rating-box{height:275px;margin:15px 0;padding:20px 8px 0;background-color:#fff;box-shadow:0 2px 8px rgb(194 194 194 / 30%)}
+}
+
 
 /*==========================================*/
 /* Circle css*/
